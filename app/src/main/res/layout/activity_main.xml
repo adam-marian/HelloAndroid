@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="schemas.android.com/apk/res-auto"
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -45,7 +44,7 @@
             android:layout_alignParentTop="true"
             android:contentDescription="@string/imageBg"
             android:padding="@dimen/imagePadding"
-            android:scaleType="fitXY"
+            android:scaleType="centerInside"
             android:src="@drawable/logo" />
 
     </android.support.v7.widget.CardView>
@@ -81,6 +80,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginStart="@dimen/textMargin"
+                android:padding="@dimen/textPadding"
                 android:autoLink="map"
                 android:drawableStart="@drawable/location"
                 android:fontFamily="sans-serif"
@@ -97,6 +97,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginStart="@dimen/textMargin"
+                android:padding="@dimen/textPadding"
                 android:autoLink="phone"
                 android:drawableStart="@drawable/telephone"
                 android:fontFamily="sans-serif"
@@ -115,6 +116,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_margin="@dimen/textMargin"
+                android:padding="@dimen/textPadding"
                 android:autoLink="web"
                 android:drawableStart="@drawable/wifi"
                 android:fontFamily="sans-serif"
@@ -155,7 +157,7 @@
             android:padding="@dimen/iconsPadding">
 
             <ImageView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/width"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:clickable="true"
@@ -164,7 +166,7 @@
             <View style="@style/Divider2" />
 
             <ImageView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/width"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:src="@drawable/facebook" />
@@ -172,7 +174,7 @@
             <View style="@style/Divider2" />
 
             <ImageView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/width"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:src="@drawable/google" />

@@ -4,7 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
-    xmlns:app="schemas.android.com/apk/res-auto"
     tools:context="com.example.android.helloandroid.MainActivity"
     >
 
@@ -82,7 +81,7 @@
             >
 
     <TextView
-        android:layout_width="0dp"
+        android:layout_width="@dimen/width"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:textSize="@dimen/textLand"
@@ -98,7 +97,7 @@
         />
         <View style="@style/Divider2" />
         <TextView
-            android:layout_width="0dp"
+            android:layout_width="@dimen/width"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textSize="@dimen/textLand"
@@ -115,7 +114,7 @@
 
             <View style="@style/Divider2" />
             <TextView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/width"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textSize="@dimen/textLand"
@@ -162,7 +161,7 @@
         android:padding="@dimen/iconsPadding" >
 
     <ImageView
-        android:layout_width="0dp"
+        android:layout_width="@dimen/width"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:src="@drawable/twitter"
@@ -171,7 +170,7 @@
         <View style="@style/Divider2" />
 
         <ImageView
-            android:layout_width="0dp"
+            android:layout_width="@dimen/width"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:src="@drawable/facebook" />
@@ -179,7 +178,7 @@
         <View style="@style/Divider2" />
 
         <ImageView
-            android:layout_width="0dp"
+            android:layout_width="@dimen/width"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:src="@drawable/google" />

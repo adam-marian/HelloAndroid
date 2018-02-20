@@ -7,6 +7,7 @@
     <dimen name="textMargin">4dp</dimen>
     <dimen name="cardTopMargin">24dp</dimen>
     <dimen name="cardElevation">12dp</dimen>
+    <dimen name="cardMaxElevation">12dp</dimen>
     <dimen name="cardRadius">12dp</dimen>
     <dimen name="imageHeight">120dp</dimen>
     <dimen name="imageLandHeight">80dp</dimen>
